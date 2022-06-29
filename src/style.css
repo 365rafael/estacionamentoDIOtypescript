@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://www.bv.com.br/site/resources/images/tipos-de-carro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:0px 0px ;
+    color:#121212;
+}
+.container{    
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
+    align-items: center;
+ 
+    
+}
+.nomePark p{
+    font-size: 40px;
+}
+.inputs{
+margin-bottom: 40px;
+}
+.tabela{
+    border: 3px solid rgb(47, 47, 47);
+    width: 450px;
+    background-color: #fff;
+}
+.tabela th{
+    margin-top: 50px;
+    font-size: 18px;
+    border: 2px solid rgb(61, 60, 60);
+    padding: 10px;
+    align-items: center;
+    
+}
+.tabela td{
+    border: 1px solid rgb(70, 70, 70);
+    align-items: center;
+}

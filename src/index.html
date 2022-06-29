@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DIO Estacionamento </title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="nomePark container">
+    <p>DIO ESTACIOAMENTO </p>
+  </div>
+
+  <div class="container">
+
+    <div class="inputs">
+      <input type="text" id="nome" placeholder="Nome veiculo:" autocomplete="off">
+      <input type="text" id="placa" placeholder="Placa do veiculo:" autocomplete="off">
+
+      <button id="btnCadastrar">Cadastrar</button>
+    </div>
+    <table class="tabela">
+      <thead>
+        <div class="dvTh">
+          <th class="tabelaTh">Nome</th>
+          <th class="tabelaTh">Placa</th>
+          <th class="tabelaTh">Entrada</th>
+          <th class="tabelaTh">Ações</th>
+        </div>
+        </tr>
+      </thead>
+      <tbody id="patio"></tbody>
+    </table>
+  </div>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
